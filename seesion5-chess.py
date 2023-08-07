@@ -3,7 +3,7 @@ print(" Welcome! You can create your own chess board with me!")
 row=int(input("Enter the number of rows: "))
 column=int(input("Enter the number of columns: "))
 
-def Checkered_board(column,row):
+def Chess_board(column,row):
     
     for i in range(row):
         for j in range(column):
@@ -13,4 +13,4 @@ def Checkered_board(column,row):
                 print("*",end="")
         print()
 
-Checkered_board(row,column)
+Chess_board(row,column)
