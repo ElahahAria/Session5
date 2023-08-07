@@ -22,7 +22,7 @@ def Quadratic_Equation():
                 x = -b / (2*a)
                 print ("X =", x) 
            else :
-                print("not valid")         
+                print(" !invalid! ")         
 
 
 Quadratic_Equation()
